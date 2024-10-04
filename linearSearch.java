@@ -1,7 +1,7 @@
 package searching;
 
 public class linearSearch {
-    
+    //function fo linear search
     public static int linearS(int[] arr, int target) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
@@ -10,7 +10,7 @@ public class linearSearch {
         }
         return -1;
     }
-
+    //main function
     public static void main(String[] args) {
         int[] arr = { 3, 5, 2, 10, 16, 56 };
         int target = 56;
